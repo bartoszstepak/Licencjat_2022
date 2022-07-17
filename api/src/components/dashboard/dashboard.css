@@ -1,0 +1,45 @@
+.dashboard_component {
+    height: 100%;
+    width: 80%;
+    min-width: 800px;
+    max-width: 1400px;
+    margin: auto;
+    padding: 25px;
+
+}
+
+/* .card-box {
+    min-width: 90%;
+    margin: 25px;
+    text-align: center;
+    background-color: #f7f7f7 !important;
+} */
+.selectors_area {
+    width: 100%;
+}
+
+
+.selector {
+    margin: auto;
+    width: 50%;
+    display: inline-block;
+    text-align: center;
+}
+
+.selector_title {
+    
+}
+
+.form_control {
+    margin: 5px;
+    text-align: center;
+}
+
+.center_button {
+    text-align: center;
+}
+
+.confirm_btn {
+    margin-top: 10px;
+}
+

@@ -1,0 +1,54 @@
+.matrices{
+    display: flex;
+}
+
+.matrix{
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 25px;
+}
+
+.matrix_element{
+    width: 70px;
+    margin: 5px !important;
+    padding-left: 5px;
+    display: flex;
+    text-align: center;
+}
+
+.matrix_element button {
+    margin: 0;
+    padding: 12px 2px 12px 2px;
+}
+
+.matrix_element svg {
+    margin: 0;
+}
+
+.form_control {
+    margin: 5px;
+    text-align: center;
+}
+
+.center_button {
+    text-align: center;
+}
+
+.confirm_btn {
+    margin-top: 15px 5px 15px 5px ;
+}
+
+.compute_btn {
+    margin-top: 25px;
+    width: 100%;
+}
+
+.compute_btn  {
+    width: 100%;
+}
+
+.icon {
+    margin: 0 !important;
+    padding: 0 !important;
+    display: flex;
+}

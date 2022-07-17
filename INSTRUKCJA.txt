@@ -1,0 +1,34 @@
+OGRANICZENIA
+*******************************************************************
+Wprowadzone graniczenia zwi¹zane s¹ z wersj¹ testow¹. Przed dodaniem aplikacji na strone internetow¹ wszytkie ograniczenia zostan¹ rozwi¹zane.
+
+- w³¹czona tylko mo¿liwoœæ obliczenia JNR dla 3 operatrów
+- w funckacjch mateamtycznych z sekcji Available expressions" w preogramie, jako argumenty mo¿na podoawaæ tylko liczby od 0 do 9. np. f(1,5). f(-1, 4.5) lub f(c(1,1), 3) -> spowoduj¹ b³¹d.
+
+*******************************************************************
+URUCHAMIENIE
+Jak uruchmoiæ aplikacje w wersji testowej lokalnie w systemie WINDOWS
+
+1. instalacja i uruchamie programu w python
+   wymagania:
+	zainstalowany python 3.8.2
+
+wkleciæ w terimnalu otwartym w folderze 'serwer' poni¿sze komendy:
+
+pip install flask
+pip install flask_cors
+pip install scipy
+python pointsControler.py
+
+(jesli w tereminalu po instalacjach nie wykona siê autmoatycznie "python pointsControler.py" nacisn¹æ enter)
+
+
+2. instalacja i uruchamie alikacji w JS
+
+   wymagania: 
+	zainstalowny node v12.16.3
+
+otoworszyæ drugi terminal w folderze 'api' i wkleciæ poni¿sze komendy
+
+npm install
+npm run start
